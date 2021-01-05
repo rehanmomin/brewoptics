@@ -1,5 +1,5 @@
 {
-  "name": "brewoptics",
+  "name": "brewoptix",
   "version": "1.0.0",
   "description": "Test framework for UI regression testing using TestCafe",
   "main": "test-runner.js",
@@ -48,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rehanmomin/brewoptics.git"
+    "url": "git+https://github.com/rehanmomin/brewoptix.git"
   },
   "keywords": [
     "testcafe"
   ],
   "author": "rehan momin",
   "license": "ISC",
-  "homepage": "https://github.com/rehanmomin/brewoptics.git#readme"
+  "homepage": "https://github.com/rehanmomin/brewoptix.git#readme"
 }
