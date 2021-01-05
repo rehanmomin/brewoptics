@@ -1,6 +1,6 @@
-# Brewoptics Automated Testing
+# Brewoptix Automated Testing
 
-Brewoptics Automation project for regression testing using [Testcafe](https://devexpress.github.io/testcafe/documentation/getting-started/).
+Brewoptix Automation project for regression testing using [Testcafe](https://devexpress.github.io/testcafe/documentation/getting-started/).
 This project verifies and validates Suplier, Distributor and Retailer Sign Up Flow.
 
 ## Getting Started
