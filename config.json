@@ -1,0 +1,12 @@
+{
+  "BLUE":{
+    "HomeURL":"https://test.brewoptix.com" 
+
+  },
+  "PROD":{
+    "HomeURL":"https://test.brewoptix.com" 
+  },
+  "LOCAL":{
+
+  }
+}

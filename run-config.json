@@ -1,0 +1,9 @@
+{
+    "all":[""],
+    "smoke":[""],
+    "custom":[""],
+    "manual":[""],
+    "pvt":[""],
+    "test":["distributor/*.js","supplier/*.js","retailer/*.js"],
+    "regression":["distributor/*.js","supplier/*.js","retailer/*.js"]
+    }

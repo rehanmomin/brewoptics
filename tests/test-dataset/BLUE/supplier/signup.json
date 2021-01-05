@@ -1,0 +1,17 @@
+{
+    "companyName" : "Test",
+    "password" : "Test@2020",
+    "paymentDetails" : {
+        "addressLine1" : "Test",
+        "addressLine2" : "Test",
+        "city" : "Mumbai",
+        "state" : "Maharashtra",
+        "postalCode" : "11111",
+        "phone" : "1232123212",
+        "cardNumber" : "4111111111111111",
+        "expDate" : "11/25",
+        "cvc" : "111",
+        "zip" : "11111"
+    }
+    
+}

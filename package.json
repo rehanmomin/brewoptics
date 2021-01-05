@@ -1,0 +1,59 @@
+{
+  "name": "brewoptics",
+  "version": "1.0.0",
+  "description": "Test framework for UI regression testing using TestCafe",
+  "main": "test-runner.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.653.0",
+    "axios": "^0.21.0",
+    "bcrypt": "^3.0.8",
+    "change-case": "^3.1.0",
+    "cryptr": "^4.0.2",
+    "csv-writer": "^1.6.0",
+    "downloads-folder": "^1.0.2",
+    "easy-soap-request": "^3.3.1",
+    "exceljs": "^2.0.1",
+    "express": "^4.17.1",
+    "fakerator": "^0.3.1",
+    "jsonpath": "^1.0.2",
+    "mailosaur": "^6.0.9",
+    "mssql": "^5.1.1",
+    "mysql": "^2.18.1",
+    "qs": "^6.9.4",
+    "testcafe-reporter-html": "^1.4.6",
+    "twilio": "^3.45.0",
+    "utf8": "^3.0.0",
+    "xlsx": "^0.15.6",
+    "xml-parse-from-string": "^1.0.1",
+    "xml2js": "^0.4.23",
+    "xml2js-xpath": "^0.10.0",
+    "xpath-to-css": "^1.0.4",
+    "yargs": "^14.2.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "jsdom": "^16.4.0",
+    "testcafe": "^1.10.1",
+    "testcafe-browser-provider-browserstack": "^1.13.0-alpha.1"
+  },
+  "scripts": {
+    "bluetest": "node test-runner.js --browser=chrome --concurrency=1 --environment=BLUE --suite=test",
+    "prodtest": "node test-runner.js --browser=\"browserstack:chrome@79.0:Windows 10\" --concurrency=1 --environment=PROD --suite=smoke --password=$prod_admin_pass1",
+    "test": "node test-runner.js --browser=chrome --concurrency=1 --environment=BLUE --suite=test",
+    "smoke": "node test-runner.js --browser=chrome --concurrency=2 --environment=BLUE --suite=smoke",
+    "regblue": "node test-runner.js --browser=\"browserstack:chrome@79.0:Windows 10\" --environment=BLUE --suite=regression --concurrency=1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehanmomin/brewoptics.git"
+  },
+  "keywords": [
+    "testcafe"
+  ],
+  "author": "rehan momin",
+  "license": "ISC",
+  "homepage": "https://github.com/rehanmomin/brewoptics.git#readme"
+}
