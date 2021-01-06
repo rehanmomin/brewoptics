@@ -26,7 +26,7 @@ npm install
 
 ## Running the tests
 
-To execute the test cases, below is the command. This command takes browser name, environment name, test-suite name, concurrency of execution, release id as arguments
+To execute the test cases, below is the command. This command takes browser name, environment name, test-suite name, concurrency of execution as arguments
 ```
 node test-runner.js --browser=chrome --environment=BLUE --suite=smoke --concurrency=1 
 ```
